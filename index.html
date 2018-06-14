@@ -6,9 +6,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-        <script src="assets/javascript/game.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
     </head>
     <body>
+        <header>Star Wars RPG!</header>
         
+        <div id="character-select-section">
+            <div class="section-title">Select Your Character</div>
+            <div id="character-select-area"></div>
+        </div>
+        
+        <div>
+            <div class="section-title">Your Character</div>
+            <div id="your-character-area"></div>
+        </div>
+        
+        <div>
+            <div class="section-title">Enemies Available to Attack</div>
+            <div id="enemies-available-area"></div>
+        </div>
+        
+        <div>
+            <div class="section-title">Fight Section</div>
+            <div id="fight-section">
+                <button id="attack-button" style="display: none;">Attack</button>
+            </div>
+        </div>
+        
+        <div>
+            <div class="section-title">Defender</div>
+            <div id="defender-area"></div>
+        </div>
+        
+        <div>
+            <div id="game-message" style="display: none"></div>
+                <div class="message" id="attack-message" style="display: inherit"></div>
+                <div class="message" id="counter-attack-message" style="display: inherit"></div></div>
+                <div class="message" id="win-loss-message" style="display: inherit"></div></div>
+            </div>
+            <button id="reset-button" style="display: none;">Reset Game</button>
+        </div>
+
     </body>
 </html>

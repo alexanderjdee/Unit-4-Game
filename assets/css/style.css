@@ -1,0 +1,65 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+div{
+    display: block;
+}
+
+header{
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 200%;
+    font-weight: 600;
+}
+
+#your-character-area #defender-area{
+    width: 190px;
+    height: 160px;
+}
+
+.character-card{
+    display: inline-block;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.character-img{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#enemies-available-area .character-card{
+    border-color: black;
+    border-width: 2px;
+    background-color: red;
+}
+
+#defender-area .character-card{
+    background-color: black;
+    color: white;
+}
+
+.message{
+    font-size: 125%;
+    font-weight: 600;
+    padding-top: 5px;
+}
